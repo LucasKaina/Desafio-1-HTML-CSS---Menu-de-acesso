@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family:  Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    width: 100vw;
+    height: 40px;
+    background-color: #212121;
+}
+
+div#primeira-div{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+div#marca{
+    padding: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.painelHome{
+    width: 90px;
+    color: white;
+    padding: 10px;
+    background-color: #F9A825;;
+    margin-right: 10px;
+    -webkit-border-radius: 100px;
+    --moz-border-radius: 100px;
+    --ms-border-radius: 100px;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.painelContato{
+    color: white;
+    padding: 10px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.painelContato:hover{
+    background-color: red;
+}
+
+.painelSobre{
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none; 
+    height: 100%;
+}
+
+div#marca, nav.nav-cabecalho{
+    width: 50%;
+    height: auto;
+   
+}
+
+nav.nav-cabecalho{
+    float: right;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+main {
+    width: 100vw;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+div#div-principal{
+    width: 40vw;
+    height: 25vh;
+    flex-direction: row;
+}
+
+div#div-esquerda, div#div-direita{
+    width: 50%;
+}
+
+div#div-esquerda{
+    border-right: 2px dotted black;
+    align-items: center;
+    justify-content: center;
+    padding-right: 15px;
+}
+
+
+
+form#div-direita{
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.submit{
+    margin-top: 15px;
+}
+
+.txt{
+    height: 30px;
+    width: 100%;
+}
+
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 80px;
+    background-color:#212121;
+    align-items: center;
+    justify-content: center;
+}
+
+div#rodape{
+    width: auto;
+    height: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
